@@ -8,10 +8,10 @@ const navItems: { label: string; page?: string; link?: string }[] = [
   { label: 'Home', page: '/' },
   { label: 'Blog', page: '/blog' },
   { label: 'Contact', page: '/contact' },
-  { label: 'Source Code', link: 'https://github.com/ijjk/notion-blog' },
+  { label: 'Source Code', link: 'https://github.com/avidal/computer.horse' },
 ]
 
-const ogImageUrl = 'https://notion-blog.now.sh/og-image.png'
+const ogImageUrl = 'https://computer-horse.vercel.app/og-image.png'
 
 export default ({ titlePre = '' }) => {
   const { pathname } = useRouter()

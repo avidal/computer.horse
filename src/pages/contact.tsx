@@ -38,6 +38,8 @@ export default () => (
     <div className={sharedStyles.layout}>
       <h1 style={{ marginTop: 0 }}>Contact</h1>
 
+      <div className={contactStyles.name}>Alex Vidal</div>
+
       <div className={contactStyles.links}>
         {contacts.map(({ Comp, link, alt }) => {
           return (
